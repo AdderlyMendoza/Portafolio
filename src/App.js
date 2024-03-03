@@ -10,6 +10,9 @@ function App() {
         <h1>
           Esta es mi pagina web | Adderly Mendoza Nina
         </h1>
+        <div>
+          ESTA ES UNA PRUEBA
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,9 +21,9 @@ function App() {
         >
           Learn React
         </a>
-      <div className='bg-yellow-300 mt-100'>
-        HOLA
-      </div>
+        <div className='mt-10 bg-black'>
+          HOLA
+        </div>
       </header>
     </div>
   );
