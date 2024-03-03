@@ -1,32 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './components/Home';
+import { Proyectos } from './components/Proyectos';
+import { Curriculum } from './components/Curriculum';
+import { Contacto } from './components/Contacto';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Esta es mi pagina web | Adderly Mendoza Nina
-        </h1>
-        <div>
-          ESTA ES UNA PRUEBA
-        </div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <div className='mt-10 bg-black'>
-          HOLA
-        </div>
-      </header>
-    </div>
+    <Router>
+      <div className="flex flex-col h-screen"> {/* flex-col: diseño de columna */}
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Curriculum" element={<Curriculum />} />
+          <Route path="/Proyectos" element={<Proyectos />} />
+          <Route path="/Contacto" element={<Contacto />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
