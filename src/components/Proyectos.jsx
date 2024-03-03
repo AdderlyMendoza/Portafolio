@@ -2,9 +2,8 @@ import React from 'react'
 
 export const Proyectos = () => {
     return (
-        <div>
-            AQUI IRA MIS PROYECTOS
-
+        <div className='h-full grid justify-center items-center text-5xl'>
+           PROXIMAMENTE 🤠 ...
         </div>
 
     )

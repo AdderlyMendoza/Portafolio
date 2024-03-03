@@ -13,7 +13,7 @@ const App = () => {
       <div className="flex flex-col h-screen"> {/* flex-col: diseño de columna */}
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Portafolio" element={<Home />} />
           <Route path="/Curriculum" element={<Curriculum />} />
           <Route path="/Proyectos" element={<Proyectos />} />
           <Route path="/Contacto" element={<Contacto />} />

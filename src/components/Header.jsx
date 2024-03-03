@@ -14,7 +14,7 @@ export const Header = () => {
                     </div>
                 </div>
                 <nav className="flex space-x-4">
-                    <Link to="/" className="hover:text-gray-300">Inicio</Link> {/* Enlaces */}
+                    <Link to="/Portafolio" className="hover:text-gray-300">Inicio</Link> {/* Enlaces */}
                     <Link to="/Curriculum" className="hover:text-gray-300">Curriculum</Link>
                     <Link to="/Proyectos" className="hover:text-gray-300">Proyectos</Link>
                     <Link to="/Contacto" className="hover:text-gray-300">Contacto</Link>
