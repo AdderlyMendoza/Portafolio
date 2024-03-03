@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+      <div className='bg-yellow-300 mt-100'>
+        HOLA
+      </div>
       </header>
     </div>
   );
