@@ -11,13 +11,13 @@ export const Main = () => {
 
     return (
         <div className="h-full flex items-center justify-center animate animate-fade animate-duration-[2s]">
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap items-center justify-center">
 
-                <div className="w-full md:w-1/2 p-4 flex items-center justify-end md:text-right rounded-full">
+                <div className="md:w-1/2 p-4 flex items-center justify-end md:text-right rounded-full w-[90%]">
                     <img src={boku} alt="" className='rounded-full'/>
                 </div>
 
-                <div className="text-justify md:w-[50%] md:flex md:flex-col md:items-left md:justify-center pl-6 pr-[10rem]">
+                <div className="text-justify md:w-[50%] md:flex md:flex-col md:items-left md:justify-center px-6 lg:pr-[8rem]">
                     <h1 className='text-center text-8xl text-black font-bold mb-10 md:text-left mi-font'>
                         Hola
                     </h1>
