@@ -1,9 +1,9 @@
 [
     {
-        "titulo" : "Calificación de exámenes simulacro",
+        "titulo" : "Calificación de Exámenes Simulacro",
         "descripcion" : "Desarrollé un sistema de web para evaluar los exámenes de tipo simulacro, este sistema redujo los tiempos de evaluación de cada área (Ingenierías, biomédicas y sociales) y optimizó este proceso.",
         "imagen" : "/proyectos/aderly.png",
-        "lenguajes" : ["Laravel", "Vue Js", "MYSQL", "Tailwind CSS", "Git"],
+        "lenguajes" : ["Laravel", "Vue Js", "MYSQL", "Tailwind CSS", "Git", "SQL"],
         "links" : [
             {
             "nombre": "Github",
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "titulo" : "Aleatorizador de exámenes",
+        "titulo" : "Aleatorizador de Exámenes",
         "descripcion" : "Desarrollé un sistema de escritorio para aleatorizar las preguntas en los procesos de admisión, este sistema fue de gran ayuda en la etapa de elaboración de pruebas, minimizando el tiempo de creación de tipos de pruebas.",
         "imagen" : "/proyectos/aderly.png",
         "lenguajes" : ["Macros Word"],
@@ -23,7 +23,7 @@
         "titulo" : "Realización de Tamizajes",
         "descripcion" : "Desarrollé un sistema web altamente eficiente y seguro para la realización de diversos tipos de tamizaje para un centro de salud. Este sistema se encuentra actualmente en producción, brindando un soporte vital en el proceso de tamizaje.",
         "imagen" : "/proyectos/aderly.png",
-        "lenguajes" : ["Laravel", "MySQL", "Javascript", "Tailwind CSS"],
+        "lenguajes" : ["Laravel", "MySQL", "Javascript", "Tailwind CSS", "Git", "SQL"],
         "links" : [
             {
             "nombre": "Pag Web",
@@ -40,10 +40,10 @@
         ]
     },
     {
-        "titulo" : "Venta de terrenos",
+        "titulo" : "Venta de Terrenos",
         "descripcion" : "Desarrollé un sistema web para mejorar la separación de terrenos en una empresa inmobiliaria, este sistema web ayudó a los clientes a poder ver en que estado se encuentra un terreno (vendido, separado o libre). Si el terreno se encuentra libre el cliente podrá separar el suyo desde la comodidad de su hogar.",
         "imagen" : "/proyectos/aderly.png",
-        "lenguajes" : ["Django", "Tailwind CSS", "Javascript", "HTML", "Git"],
+        "lenguajes" : ["Django", "Tailwind CSS", "Javascript", "HTML", "Git", "SQL"],
         "links" : [
             {
             "nombre": "Pag Web",

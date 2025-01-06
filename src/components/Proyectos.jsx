@@ -7,7 +7,7 @@ export const Proyectos = () => {
 
     return (
         <>
-            <div className="px-[21rem] flex h-full flex-col items-center py-8">
+            <div className="flex flex-col items-center pb-8 reveal mb-12">
                 {
                     proyectos.map((proyecto, index) => {
                         return (
@@ -16,7 +16,7 @@ export const Proyectos = () => {
                                     <img src={process.env.PUBLIC_URL + proyecto.imagen} className="object-cover w-full h-full rounded-l-md" />
                                 </div>
                                 <div className="p-6">
-                                    <h6 className="flex mb-4 font-sans text-sm leading-relaxed tracking-normal text-white">
+                                    <h6 className="flex mb-4 font-sans text-xs leading-relaxed tracking-normal text-white">
                                         {
                                             proyecto.lenguajes.map((lenguaje, i) => {
                                                 return (
@@ -27,7 +27,7 @@ export const Proyectos = () => {
                                             })
                                         }
                                     </h6>
-                                    <h4 className="block mb-2 font-sans text-xl font-bold text-blue-500 uppercase">
+                                    <h4 className="block mb-2 font-sans text-lg font-bold text-blue-500">
                                         {proyecto.titulo}
                                     </h4>
                                     <p className="block mb-8 font-sans text-sm font-normal text-gray-500 leading-relaxed ">

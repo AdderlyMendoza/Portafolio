@@ -4,21 +4,25 @@ import logoMain from '../assets/logoMain1.png';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiMiniDocumentArrowDown } from 'react-icons/hi2';
 import Cv from '../assets/Profile.pdf';
+import { Sparkles } from "./Sparkles.jsx"
 
 export const Main = () => {
     return (
 
-        <div className="h-screen flex flex-row items-center justify-center p-[10rem]">
-
+        <div className="h-screen flex flex-row items-center justify-center">
+            <Sparkles
+                density={1200}
+                className="absolute inset-x-0 bottom-0 h-full w-full [mask-image:radial-gradient(50%_50%,white,transparent_85%)]"
+            />
             <div className=" flex items-center justify-end p-4 animate-fade animate-duration-[2s]">
-                <img src={logoMain} alt="Logo" className="w-[500px] md:w-[600px] lg:w-[700px] xl:w-[800px]" />
+                <img src={logoMain} alt="Logo" className="w-[700px] md:w-[800px] lg:w-[900px] xl:w-[900px]" />
             </div>
 
             <div className=" flex flex-col px-4 animate-fade animate-duration-[2s]">
                 <h1 className="text-4xl text-white font-bold mb-2 text-left mi-font">
                     Hi, I´m <strong className='text-blue-500'>&lt;ADDERLY.M/&gt;</strong>
                 </h1>
-                <p className="text-2xl text-white text-left ">
+                <p className="text-2xl text-gray-100 text-left ">
                     Ingeniero de sistemas con <strong>+2</strong> años de experiencia en el desarrollo de aplicaciones web. Mi enfoque se centra en simplificar tareas cotidianas, mejorar la productividad y
                     optimizar procesos.
                 </p>
