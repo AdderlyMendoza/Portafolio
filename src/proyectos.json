@@ -1,0 +1,86 @@
+[
+    {
+        "titulo" : "Calificación de exámenes simulacro",
+        "descripcion" : "Desarrollé un sistema de web para evaluar los exámenes de tipo simulacro, este sistema redujo los tiempos de evaluación de cada área (Ingenierías, biomédicas y sociales) y optimizó este proceso.",
+        "imagen" : "/proyectos/aderly.png",
+        "lenguajes" : ["Laravel", "Vue Js", "MYSQL", "Tailwind CSS", "Git"],
+        "links" : [
+            {
+            "nombre": "Github",
+            "url" : "https://github.com/AdderlyMendoza/Sis-Calificacion-FULL-STACK"
+            }
+        ]
+    },
+    {
+        "titulo" : "Aleatorizador de exámenes",
+        "descripcion" : "Desarrollé un sistema de escritorio para aleatorizar las preguntas en los procesos de admisión, este sistema fue de gran ayuda en la etapa de elaboración de pruebas, minimizando el tiempo de creación de tipos de pruebas.",
+        "imagen" : "/proyectos/aderly.png",
+        "lenguajes" : ["Macros Word"],
+        "links" : [
+        ]
+    },
+    {
+        "titulo" : "Realización de Tamizajes",
+        "descripcion" : "Desarrollé un sistema web altamente eficiente y seguro para la realización de diversos tipos de tamizaje para un centro de salud. Este sistema se encuentra actualmente en producción, brindando un soporte vital en el proceso de tamizaje.",
+        "imagen" : "/proyectos/aderly.png",
+        "lenguajes" : ["Laravel", "MySQL", "Javascript", "Tailwind CSS"],
+        "links" : [
+            {
+            "nombre": "Pag Web",
+            "url" : ""
+            },
+            {
+            "nombre": "Github",
+            "url" : "https://github.com/brad-tyler/SisConSur"
+            },
+            {
+            "nombre": "Trello",
+            "url" : "https://trello.com/b/fIpYCnhP/sisconosur"
+            }
+        ]
+    },
+    {
+        "titulo" : "Venta de terrenos",
+        "descripcion" : "Desarrollé un sistema web para mejorar la separación de terrenos en una empresa inmobiliaria, este sistema web ayudó a los clientes a poder ver en que estado se encuentra un terreno (vendido, separado o libre). Si el terreno se encuentra libre el cliente podrá separar el suyo desde la comodidad de su hogar.",
+        "imagen" : "/proyectos/aderly.png",
+        "lenguajes" : ["Django", "Tailwind CSS", "Javascript", "HTML", "Git"],
+        "links" : [
+            {
+            "nombre": "Pag Web",
+            "url" : ""
+            },
+            {
+            "nombre": "Github",
+            "url" : "https://github.com/AdderlyMendoza/Venta-de-Terrenos-Monaco"
+            }
+        ]
+    },
+    {
+        "titulo" : "Reconocimiento Facial",
+        "descripcion" : "Diseñé un sistema informático para el reconocimiento facial en el examen de admisión EXTRAORDINARIO 2024 de la prestigiosa Universidad Nacional del Altiplano Puno. Esta innovadora solución permite identificar de manera precisa a los postulantes y prevenir suplantaciones en el proceso de admisión.",
+        "imagen" : "/proyectos/aderly.png",
+        "lenguajes" : ["Python", "Tkinter"],
+        "links" : [
+            {
+            "nombre": "Github",
+            "url" : "https://github.com/brad-tyler/SisConSur"
+            }
+        ]
+    },
+    {
+        "titulo": "Procesamiento de Imágenes",
+        "descripcion": "Desarrollé un sistema de escritorio altamente versátil para la edición, mejora y cambio de tonalidad de imágenes. Esta solución ofrece una amplia gama de herramientas y funcionalidades para manipular imágenes de manera eficiente y creativa.",
+        "imagen" : "/proyectos/aderly.png",
+        "lenguajes" : ["Python","Tkinter"],
+        "links" : [
+        ]
+    },
+    {
+        "titulo": "Palabras Clave",
+        "descripcion": "Creé un sistema de escritorio para la visualización y análisis de las palabras clave más utilizadas en los trabajos de investigación de los estudiantes universitarios. Esta solución, provee una valiosa ayuda para identificar tendencias y patrones en los trabajos académicos.",
+        "imagen" : "/proyectos/aderly.png",
+        "lenguajes" : ["Python","Tkinter"],
+        "links" : [
+        ]
+    }
+]
