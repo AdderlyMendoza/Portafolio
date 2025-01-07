@@ -20,7 +20,7 @@ export const Home = () => {
     }, []);
 
     return (
-        <div className="bg-stone-900 px-[21rem]">
+        <div className="bg-stone-900 md:px-[21rem] border border-stone-900">
 
             {/* Componente Main */}
             <div id='Inicio'></div>

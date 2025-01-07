@@ -1,8 +1,8 @@
 const ExperienciaItem = ({ puesto, empresa, fecha, descripcion }) => {
     return (
         <div className="reveal">
-            <li className="mb-10 ml-6 flex flex-nowrap ">
-                <div className="w-1/3">
+            <li className="mb-10 ml-6 md:flex md:flex-nowrap">
+                <div className="md:w-1/3">
                     <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-1 ring-gray-700 bg-stone-900">
                         <svg className="w-2.5 h-2.5 text-blue-900 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
@@ -19,8 +19,8 @@ const ExperienciaItem = ({ puesto, empresa, fecha, descripcion }) => {
                     </time>
                 </div>
 
-                <div className="w-full ml-4">
-                    <p className="font-normal">
+                <div className="w-full md:ml-4">
+                    <p className="md:text-base text-sm">
                         {/* {descripcion} */}
                         {descripcion.map((linea, index) => (
                             <p key={index} className="mb-2 text-md text-gray-100">
@@ -38,7 +38,7 @@ const ExperienciaItem = ({ puesto, empresa, fecha, descripcion }) => {
 
 export const Experiencia = () => {
     return (
-        <div className="flex justify-center py-8 mb-12">
+        <div className="flex justify-center py-8 mb-12 px-4">
             <ol className="relative border-l-2 border-gray-700 max-w-3xl w-full">
                 <ExperienciaItem
                     puesto="Ingeniero de Sistemas"

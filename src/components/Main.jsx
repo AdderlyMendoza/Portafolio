@@ -9,20 +9,20 @@ import { Sparkles } from "./Sparkles.jsx"
 export const Main = () => {
     return (
 
-        <div className="h-screen flex flex-row items-center justify-center">
+        <div className="h-screen items-center justify-center lg:flex lg:flex-row">
             <Sparkles
                 density={1200}
-                className="absolute inset-x-0 bottom-0 h-full w-full [mask-image:radial-gradient(50%_50%,white,transparent_85%)] z-0"
+                className="absolute inset-x-0 bottom-0 h-full w-full [mask-image:radial-gradient(50%_50%,white,transparent_85%)] -z-1"
             />
-            <div className=" flex items-center justify-end p-4 animate-fade animate-duration-[2s]">
-                <img src={logoMain} alt="Logo" className="w-[700px] md:w-[800px] lg:w-[900px] xl:w-[900px] z-4" />
+            <div className="flex justify-center items-center lg:flex lg:items-center lg:justify-end p-4 animate-fade animate-duration-[2s]">
+                <img src={logoMain} alt="Logo" className="w-2/3 md:w-[900px] z-4 pt-20 lg:pt-0" />
             </div>
 
             <div className=" flex flex-col px-4 animate-fade animate-duration-[2s] z-4">
                 <h1 className="text-4xl text-white font-bold mb-2 text-left mi-font">
                     Hi, I´m <strong className='text-blue-500'>&lt;ADDERLY.M/&gt;</strong>
                 </h1>
-                <p className="text-2xl text-gray-100 text-left ">
+                <p className="md:text-2xl text-gray-100 text-left text-lg">
                     Ingeniero de sistemas con <strong>+2</strong> años de experiencia en el desarrollo de aplicaciones web. Mi enfoque se centra en simplificar tareas cotidianas, mejorar la productividad y
                     optimizar procesos.
                 </p>
