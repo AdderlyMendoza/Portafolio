@@ -15,28 +15,35 @@ export const Proyectos = () => {
     return (
         <>
             <div className="items-center pb-8 reveal mb-12">
+                
+                {/* Mostrar los dos primeros */}
                 {
-                    proyectos.slice(0, 2).map((proyecto, index) => (
+                    proyectos.slice(0, 3).map((proyecto, index) => (
                         <div className="md:ml-8 md:flex md:flex-row flex flex-col rounded-xl text-gray-700 shadow-lg mb:max-h-[21rem] mt-10 hover:bg-black/50 group m-4 p-2" key={index}>
                             <div className="md:w-2/5 w-full text-gray-700 rounded-r-none rounded-xl md:shrink-0">
-                                <img src={process.env.PUBLIC_URL + proyecto.imagen} className="object-cover w-full h-full rounded-l-md group-hover:grayscale" />
+                                <img src={process.env.PUBLIC_URL + proyecto.imagen} className="object-contain w-full h-full rounded-l-md group-hover:object-cover" alt='Proyecto' />
                             </div>
-                            <div className='md:ml-4'>
-                                <h4 className="flex mb-4 font-sans text-xs leading-relaxed tracking-normal text-white">
-                                    {
-                                        proyecto.lenguajes.map((lenguaje, i) => (
-                                            <div className="flex items-center p-2 mr-2 text-xs font-bold text-center rounded-lg bg-stone-800 text-white mt-4 mb:mt-0" key={i}>
-                                                {lenguaje}
-                                            </div>
-                                        ))
-                                    }
-                                </h4>
-                                <h4 className="block mb-2 font-sans text-lg font-bold text-blue-500">
-                                    {proyecto.titulo}
-                                </h4>
-                                <p className="block mb-8 font-sans text-sm font-normal text-gray-500 leading-relaxed">
-                                    {proyecto.descripcion}
-                                </p>
+
+                            <div className='md:ml-4 flex flex-col justify-between'>
+
+                                <div>
+                                    <h4 className="flex mb-4 font-sans text-xs leading-relaxed tracking-normal text-white">
+                                        {
+                                            proyecto.lenguajes.map((lenguaje, i) => (
+                                                <div className="flex items-center p-2 mr-2 text-xs font-bold text-center rounded-lg bg-stone-800 text-white mt-4 mb:mt-0" key={i}>
+                                                    {lenguaje}
+                                                </div>
+                                            ))
+                                        }
+                                    </h4>
+                                    <h4 className="block mb-2 font-sans text-lg font-bold text-blue-500">
+                                        {proyecto.titulo}
+                                    </h4>
+                                    <p className="block mb-8 font-sans text-sm font-normal text-gray-500 leading-relaxed">
+                                        {proyecto.descripcion}
+                                    </p>
+                                </div>
+
                                 <div className='flex'>
                                     {
                                         proyecto.links.map((link, i) => (
@@ -48,6 +55,7 @@ export const Proyectos = () => {
                                         ))
                                     }
                                 </div>
+
                             </div>
                         </div>
                     ))
@@ -55,27 +63,32 @@ export const Proyectos = () => {
 
                 {/* Mostrar el resto de los proyectos si "mostrarTodos" es verdadero */}
                 {
-                    mostrarTodos && proyectos.slice(2).map((proyecto, index) => (
+                    mostrarTodos && proyectos.slice(3).map((proyecto, index) => (
                         <div className="md:ml-8 md:flex md:flex-row flex flex-col rounded-xl text-gray-700 shadow-lg mb:max-h-[21rem] mt-10 hover:bg-black/50 group m-4 p-2" key={index}>
                             <div className="md:w-2/5 w-full text-gray-700 rounded-r-none rounded-xl md:shrink-0">
-                                <img src={process.env.PUBLIC_URL + proyecto.imagen} className="object-cover w-full h-full rounded-l-md group-hover:grayscale" />
+                                <img src={process.env.PUBLIC_URL + proyecto.imagen} className="object-contain w-full h-full rounded-l-md group-hover:object-cover" alt='Proyecto' />
                             </div>
-                            <div className='md:ml-4'>
-                                <h4 className="flex mb-4 font-sans text-xs leading-relaxed tracking-normal text-white">
-                                    {
-                                        proyecto.lenguajes.map((lenguaje, i) => (
-                                            <div className="flex items-center p-2 mr-2 text-xs font-bold text-center rounded-lg bg-stone-800 text-white mt-4 mb:mt-0" key={i}>
-                                                {lenguaje}
-                                            </div>
-                                        ))
-                                    }
-                                </h4>
-                                <h4 className="block mb-2 font-sans text-lg font-bold text-blue-500">
-                                    {proyecto.titulo}
-                                </h4>
-                                <p className="block mb-8 font-sans text-sm font-normal text-gray-500 leading-relaxed">
-                                    {proyecto.descripcion}
-                                </p>
+
+                            <div className='md:ml-4 flex flex-col justify-between'>
+
+                                <div>
+                                    <h4 className="flex mb-4 font-sans text-xs leading-relaxed tracking-normal text-white">
+                                        {
+                                            proyecto.lenguajes.map((lenguaje, i) => (
+                                                <div className="flex items-center p-2 mr-2 text-xs font-bold text-center rounded-lg bg-stone-800 text-white mt-4 mb:mt-0" key={i}>
+                                                    {lenguaje}
+                                                </div>
+                                            ))
+                                        }
+                                    </h4>
+                                    <h4 className="block mb-2 font-sans text-lg font-bold text-blue-500">
+                                        {proyecto.titulo}
+                                    </h4>
+                                    <p className="block mb-8 font-sans text-sm font-normal text-gray-500 leading-relaxed">
+                                        {proyecto.descripcion}
+                                    </p>
+                                </div>
+
                                 <div className='flex'>
                                     {
                                         proyecto.links.map((link, i) => (
@@ -87,6 +100,7 @@ export const Proyectos = () => {
                                         ))
                                     }
                                 </div>
+
                             </div>
                         </div>
                     ))

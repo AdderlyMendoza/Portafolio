@@ -1,8 +1,40 @@
 [
     {
-        "titulo" : "Calificación de Exámenes Simulacro",
-        "descripcion" : "Desarrollé un sistema de web para evaluar los exámenes de tipo simulacro, este sistema redujo los tiempos de evaluación de cada área (Ingenierías, biomédicas y sociales) y optimizó este proceso.",
-        "imagen" : "/proyectos/aderly.png",
+        "titulo" : "Sistema para el CIMAC 2025",
+        "descripcion" : "Desarrollé un sistema web para el CIMAC 2025, que incluía la creación de una Landing Page, un módulo para el registro de participantes con control de inscripciones y pagos, y sistema para el seguimiento de la asistencia durante el evento. Este proyecto permitió una gestión eficiente del congreso, mejorando la experiencia de los participantes y la administración del evento. ",
+        "imagen" : "/proyectos/cimac.png",
+        "lenguajes" : ["Django", "mySQL", "Tailwind CSS", "Git"],
+        "links" : [
+            {
+            "nombre": "Pag Web",
+            "url" : "https://congreso-cimac.onrender.com"
+            },
+            {
+            "nombre": "Github",
+            "url" : "https://github.com/AdderlyMendoza/congreso-fismat"
+            }
+        ]
+    },
+    {
+        "titulo" : "Netflix Clone - FrontEnd",
+        "descripcion" : "Desarrollé un clone de Netflix, la parte del FrontEnd, este sistema incluye un sistema de autenticación (aún por mejorar) y un sistema de visualización de películas. Este proyecto fue una gran oportunidad para mejorar mis habilidades en React, Tailwind y el diseño y maquetación de páginas web. User: a Contraseña: a ",
+        "imagen" : "/proyectos/netflixClone.png",
+        "lenguajes" : ["React Js", "Tailwind CSS", "Git"],
+        "links" : [
+            {
+            "nombre": "Pag Web",
+            "url" : "https://adderlymendoza.github.io/Netflix-Clone-Frontend/"
+            },
+            {
+            "nombre": "Github",
+            "url" : "https://github.com/AdderlyMendoza/Netflix-Clone-Frontend"
+            }
+        ]
+    },
+    {
+        "titulo" : "Distribución y Calificación de Exámenes",
+        "descripcion" : "Desarrollé un sistema web que asigna de manera automática la ubicación, tipo de prueba (P,Q,R,S,T) y el aula para los exámenes de los postulantes, así como facilita la evaluación de exámenes. Este sistema optimizó significativamente los tiempos de evaluación en las áreas de Ingeniería, Biomédicas y Sociales, mejorando la eficiencia en todo el proceso.",
+        "imagen" : "/proyectos/calificacion.png",
         "lenguajes" : ["Laravel", "VueJs", "mySQL", "Tailwind CSS", "Git"],
         "links" : [
             {
@@ -26,10 +58,6 @@
         "lenguajes" : ["Laravel", "MySQL", "Javascript", "Tailwind CSS", "Git"],
         "links" : [
             {
-            "nombre": "Pag Web",
-            "url" : ""
-            },
-            {
             "nombre": "Github",
             "url" : "https://github.com/brad-tyler/SisConSur"
             },
@@ -42,13 +70,9 @@
     {
         "titulo" : "Venta de Terrenos",
         "descripcion" : "Desarrollé un sistema web para mejorar la separación de terrenos en una empresa inmobiliaria, este sistema web ayudó a los clientes a poder ver en que estado se encuentra un terreno (vendido, separado o libre). Si el terreno se encuentra libre el cliente podrá separar el suyo desde la comodidad de su hogar.",
-        "imagen" : "/proyectos/aderly.png",
+        "imagen" : "/proyectos/monaco.png",
         "lenguajes" : ["Django", "Tailwind CSS", "Javascript", "Git", "SQL"],
         "links" : [
-            {
-            "nombre": "Pag Web",
-            "url" : ""
-            },
             {
             "nombre": "Github",
             "url" : "https://github.com/AdderlyMendoza/Venta-de-Terrenos-Monaco"
@@ -58,12 +82,12 @@
     {
         "titulo" : "Reconocimiento Facial",
         "descripcion" : "Diseñé un sistema informático para el reconocimiento facial en el examen de admisión EXTRAORDINARIO 2024 de la prestigiosa Universidad Nacional del Altiplano Puno. Esta innovadora solución permite identificar de manera precisa a los postulantes y prevenir suplantaciones en el proceso de admisión.",
-        "imagen" : "/proyectos/aderly.png",
+        "imagen" : "/proyectos/recFacial.png",
         "lenguajes" : ["Python", "Tkinter"],
         "links" : [
             {
-            "nombre": "Github",
-            "url" : "https://github.com/brad-tyler/SisConSur"
+            "nombre": "Publicación",
+            "url" : "https://repositorio.unap.edu.pe/handle/20.500.14082/23352"
             }
         ]
     },
@@ -78,9 +102,13 @@
     {
         "titulo": "Palabras Clave",
         "descripcion": "Creé un sistema de escritorio para la visualización y análisis de las palabras clave más utilizadas en los trabajos de investigación de los estudiantes universitarios. Esta solución, provee una valiosa ayuda para identificar tendencias y patrones en los trabajos académicos.",
-        "imagen" : "/proyectos/aderly.png",
+        "imagen" : "/proyectos/palabrasClave.png",
         "lenguajes" : ["Python","Tkinter"],
         "links" : [
+            {
+            "nombre": "Publicación",
+            "url":"https://easychair.org/publications/preprint/P2tQ"
+            }
         ]
     }
 ]

@@ -43,7 +43,7 @@ export const Experiencia = () => {
                 <ExperienciaItem
                     puesto="Ingeniero de Sistemas"
                     empresa="Dirección de Admisión UNA PUNO"
-                    fecha="Marzo - Diciembre | 2024"
+                    fecha="Marzo | 2024 - Marzo | 2025"
                     descripcion={[
                         "Desarrollé un sistema web para la evaluación de exámenes tipo simulacro en diversas áreas (Ingenierías, Biomédicas y Sociales), con su respectiva ponderación. Este sistema optimizó el proceso de calificación, mejorando la eficiencia y precisión en la evaluación de las pruebas.",
                         "Diseñé e implementé un sistema para optimizar la creación de tipos de prueba (P, Q, R, S, T), lo que permitió reducir el tiempo de creación de estos tipos de prueba hasta en un 50%, mejorando significativamente la eficiencia del proceso.",
