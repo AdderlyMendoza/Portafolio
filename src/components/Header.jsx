@@ -2,58 +2,51 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export const Header = () => {
-    // Estado para controlar si el menú en móvil está abierto o cerrado
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-    const handleAnchorClick = (event, targetId) => {
+    const handleAnchorClick = (targetId) => {
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
             window.scrollTo({
-                top: targetElement.offsetTop - 80, // Restamos 80px para no tapar con el header fijo
+                top: targetElement.offsetTop - 80,
                 behavior: 'smooth',
             });
         }
+        setMobileMenuOpen(false);
     };
 
     return (
         <>
-            <header className="fixed top-0 bg-stone-900 text-white z-50 w-full h-20 px-4 sm:px-6 md:px-12 lg:px-[20rem] flex items-center justify-between animate-fade animate-duration-[2s]">
-                {/* Logo */}
-                <div className="flex items-center pl-5">
+            <header className="fixed top-0 bg-stone-900 text-white z-50 w-full h-20 animate-fade animate-duration-[2s]">
+                <div className="max-w-6xl mx-auto h-full px-4 sm:px-6 flex items-center justify-between">
                     <div className="text-xl font-bold">
-                        <Link to="/Portafolio" className="hover:text-gray-300" onClick={(e) => handleAnchorClick(e, 'Inicio')}>
-                            <span className="font-semibold flex items-center">&lt;ADDERLY.M/&gt;</span>
+                        <Link to="/Portafolio" className="hover:text-gray-300" onClick={() => handleAnchorClick('Inicio')}>
+                            <span className="font-semibold">&lt;ADDERLY.M/&gt;</span>
                         </Link>
                     </div>
-                </div>
 
-                {/* Menú de navegación en pantallas grandes */}
-                <nav className="hidden md:flex space-x-4 pr-5">
-                    <Link to="/Portafolio#Experiencia" className="hover:text-gray-300" onClick={(e) => handleAnchorClick(e, 'Experiencia')}>Experiencia</Link>
-                    <Link to="/Portafolio#Proyectos" className="hover:text-gray-300" onClick={(e) => handleAnchorClick(e, 'Proyectos')}>Proyectos</Link>
-                    <Link to="/Portafolio#SobreMi" className="hover:text-gray-300" onClick={(e) => handleAnchorClick(e, 'SobreMi')}>Sobre Mi</Link>
-                </nav>
+                    <nav className="hidden md:flex space-x-6">
+                        <Link to="/Portafolio#Experiencia" className="hover:text-gray-300 text-sm" onClick={() => handleAnchorClick('Experiencia')}>Experiencia</Link>
+                        <Link to="/Portafolio#Proyectos" className="hover:text-gray-300 text-sm" onClick={() => handleAnchorClick('Proyectos')}>Proyectos</Link>
+                        <Link to="/Portafolio#SobreMi" className="hover:text-gray-300 text-sm" onClick={() => handleAnchorClick('SobreMi')}>Sobre Mi</Link>
+                    </nav>
 
-                {/* Botón de hamburguesa para pantallas pequeñas */}
-                <div className="md:hidden flex items-center pr-5">
-                    <button 
-                        className="text-white"
-                        onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                    >
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
+                    <div className="md:hidden">
+                        <button className="text-white" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </header>
 
-            {/* Menú desplegable en pantallas pequeñas */}
             {mobileMenuOpen && (
-                <div className="md:hidden absolute top-20 left-0 w-full bg-stone-900 text-white">
+                <div className="md:hidden fixed top-20 left-0 w-full bg-stone-900 text-white z-40">
                     <div className="flex flex-col items-center">
-                        <Link to="/Portafolio#Experiencia" className="p-4 hover:text-gray-300" onClick={(e) => handleAnchorClick(e, 'Experiencia')}>Experiencia</Link>
-                        <Link to="/Portafolio#Proyectos" className="p-4 hover:text-gray-300" onClick={(e) => handleAnchorClick(e, 'Proyectos')}>Proyectos</Link>
-                        <Link to="/Portafolio#SobreMi" className="p-4 hover:text-gray-300" onClick={(e) => handleAnchorClick(e, 'SobreMi')}>Sobre Mi</Link>
+                        <Link to="/Portafolio#Experiencia" className="p-4 hover:text-gray-300" onClick={() => handleAnchorClick('Experiencia')}>Experiencia</Link>
+                        <Link to="/Portafolio#Proyectos" className="p-4 hover:text-gray-300" onClick={() => handleAnchorClick('Proyectos')}>Proyectos</Link>
+                        <Link to="/Portafolio#SobreMi" className="p-4 hover:text-gray-300" onClick={() => handleAnchorClick('SobreMi')}>Sobre Mi</Link>
                     </div>
                 </div>
             )}

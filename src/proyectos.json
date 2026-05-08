@@ -1,114 +1,192 @@
 [
     {
-        "titulo" : "Sistema para el CIMAC 2025",
-        "descripcion" : "Desarrollé un sistema web para el CIMAC 2025, que incluía la creación de una Landing Page, un módulo para el registro de participantes con control de inscripciones y pagos, y sistema para el seguimiento de la asistencia durante el evento. Este proyecto permitió una gestión eficiente del congreso, mejorando la experiencia de los participantes y la administración del evento. ",
-        "imagen" : "/proyectos/cimac.png",
-        "lenguajes" : ["Django", "mySQL", "Tailwind CSS", "Git"],
-        "links" : [
+        "titulo": "Sistema para Inmobiliaria Lopez",
+        "descripcion": "Desarrollando un sistema web con módulos de clientes, ventas, pagos, asistencia a eventos, envío de mensajes de WhatsApp automatizado y facturación electrónica.",
+        "imagen": "/proyectos/inmobiliaria.png",
+        "lenguajes": [
+            "VueJs",
+            "Vue Prime",
+            "Laravel",
+            "mySQL",
+            "Git",
+            "Docker"
+        ],
+        "links": [
             {
-            "nombre": "Pag Web",
-            "url" : "https://congreso-cimac.onrender.com"
+                "nombre": "Pag Web",
+                "url": "#"
+            }
+        ]
+    },
+    {
+        "titulo": "Sistema para Gestión de Movimientos de Almacén",
+        "descripcion": "Realicé el mantenimiento del sistema y aporté nuevas funcionalidades para optimizar la gestión de movimientos de almacén, mejorando procesos, rendimiento y experiencia de usuario",
+        "imagen": "/proyectos/aderly.png",
+        "lenguajes": [
+            "Angular",
+            "Laravel",
+            "mySQL",
+            "Tailwind CSS",
+            "Git"
+        ],
+        "links": [
+            {
+                "nombre": "Pag Web",
+                "url": "https://sistemas.regionpuno.gob.pe/karen"
+            }
+        ]
+    },
+    {
+        "titulo": "Sistema para Gestión de Clientes y Pagos - MICON",
+        "descripcion": "Desarrolle y desplegue un sistema web para la gestión de clientes y pagos en MICON. Este sistema permitió a la empresa llevar un control eficiente de sus clientes, gestionar los pagos de manera organizada y mejorar la experiencia del cliente al facilitar el proceso de compra.",
+        "imagen": "/proyectos/aderly.png",
+        "lenguajes": [
+            "VueJs",
+            "Vue Prime",
+            "Laravel",
+            "mySQL",
+            "Tailwind CSS",
+            "Git",
+            "Docker"
+        ],
+        "links": [
+            {
+                "nombre": "Pag Web",
+                "url": "https://miconsac.org/"
+            }
+        ]
+    },
+    {
+        "titulo": "Sistema para el CIMAC 2025",
+        "descripcion": "Desarrollé un sistema web para el CIMAC 2025, que incluía la creación de una Landing Page, un módulo para el registro de participantes con control de inscripciones y pagos, y sistema para el seguimiento de la asistencia durante el evento. Este proyecto permitió una gestión eficiente del congreso, mejorando la experiencia de los participantes y la administración del evento. ",
+        "imagen": "/proyectos/cimac.png",
+        "lenguajes": [
+            "Django",
+            "mySQL",
+            "Tailwind CSS",
+            "Git"
+        ],
+        "links": [
+            {
+                "nombre": "Pag Web",
+                "url": "https://congreso-cimac.onrender.com"
             },
             {
-            "nombre": "Github",
-            "url" : "https://github.com/AdderlyMendoza/congreso-fismat"
+                "nombre": "Github",
+                "url": "https://github.com/AdderlyMendoza/congreso-fismat"
             }
         ]
     },
     {
-        "titulo" : "Netflix Clone - FrontEnd",
-        "descripcion" : "Desarrollé un clone de Netflix, la parte del FrontEnd, este sistema incluye un sistema de autenticación (aún por mejorar) y un sistema de visualización de películas. Este proyecto fue una gran oportunidad para mejorar mis habilidades en React, Tailwind y el diseño y maquetación de páginas web. User: a Contraseña: a ",
-        "imagen" : "/proyectos/netflixClone.png",
-        "lenguajes" : ["React Js", "Tailwind CSS", "Git"],
-        "links" : [
+        "titulo": "Netflix Clone - FrontEnd",
+        "descripcion": "Desarrollé un clone de Netflix, la parte del FrontEnd, este sistema incluye un sistema de autenticación (aún por mejorar) y un sistema de visualización de películas. Este proyecto fue una gran oportunidad para mejorar mis habilidades en React, Tailwind y el diseño y maquetación de páginas web. User: a Contraseña: a ",
+        "imagen": "/proyectos/netflixClone.png",
+        "lenguajes": [
+            "React Js",
+            "Tailwind CSS",
+            "Git"
+        ],
+        "links": [
             {
-            "nombre": "Pag Web",
-            "url" : "https://adderlymendoza.github.io/Netflix-Clone-Frontend/"
+                "nombre": "Pag Web",
+                "url": "https://adderlymendoza.github.io/Netflix-Clone-Frontend/"
             },
             {
-            "nombre": "Github",
-            "url" : "https://github.com/AdderlyMendoza/Netflix-Clone-Frontend"
+                "nombre": "Github",
+                "url": "https://github.com/AdderlyMendoza/Netflix-Clone-Frontend"
             }
         ]
     },
     {
-        "titulo" : "Distribución y Calificación de Exámenes",
-        "descripcion" : "Desarrollé un sistema web que asigna de manera automática la ubicación, tipo de prueba (P,Q,R,S,T) y el aula para los exámenes de los postulantes, así como facilita la evaluación de exámenes. Este sistema optimizó significativamente los tiempos de evaluación en las áreas de Ingeniería, Biomédicas y Sociales, mejorando la eficiencia en todo el proceso.",
-        "imagen" : "/proyectos/calificacion.png",
-        "lenguajes" : ["Laravel", "VueJs", "mySQL", "Tailwind CSS", "Git"],
-        "links" : [
+        "titulo": "Distribución y Calificación de Exámenes",
+        "descripcion": "Desarrollé un sistema web que asigna de manera automática la ubicación, tipo de prueba (P,Q,R,S,T) y el aula para los exámenes de los postulantes, así como facilita la evaluación de exámenes. Este sistema optimizó significativamente los tiempos de evaluación en las áreas de Ingeniería, Biomédicas y Sociales, mejorando la eficiencia en todo el proceso.",
+        "imagen": "/proyectos/calificacion.png",
+        "lenguajes": [
+            "Laravel",
+            "VueJs",
+            "mySQL",
+            "Tailwind CSS",
+            "Git"
+        ],
+        "links": [
             {
-            "nombre": "Github",
-            "url" : "https://github.com/AdderlyMendoza/Sis-Calificacion-FULL-STACK"
+                "nombre": "Github",
+                "url": "https://github.com/AdderlyMendoza/Sis-Calificacion-FULL-STACK"
             }
         ]
     },
     {
-        "titulo" : "Aleatorizador de Exámenes",
-        "descripcion" : "Desarrollé un sistema de escritorio para aleatorizar las preguntas en los procesos de admisión, este sistema fue de gran ayuda en la etapa de elaboración de pruebas, minimizando el tiempo de creación de tipos de pruebas.",
-        "imagen" : "/proyectos/aderly.png",
-        "lenguajes" : ["Macros Word"],
-        "links" : [
-        ]
+        "titulo": "Aleatorizador de Exámenes",
+        "descripcion": "Desarrollé un sistema de escritorio para aleatorizar las preguntas en los procesos de admisión, este sistema fue de gran ayuda en la etapa de elaboración de pruebas, minimizando el tiempo de creación de tipos de pruebas.",
+        "imagen": "/proyectos/aderly.png",
+        "lenguajes": [
+            "Macros Word"
+        ],
+        "links": []
     },
     {
-        "titulo" : "Realización de Tamizajes",
-        "descripcion" : "Desarrollé un sistema web altamente eficiente y seguro para la realización de diversos tipos de tamizaje para un centro de salud. Este sistema se encuentra actualmente en producción, brindando un soporte vital en el proceso de tamizaje.",
-        "imagen" : "/proyectos/aderly.png",
-        "lenguajes" : ["Laravel", "MySQL", "Javascript", "Tailwind CSS", "Git"],
-        "links" : [
+        "titulo": "Realización de Tamizajes",
+        "descripcion": "Desarrollé un sistema web altamente eficiente y seguro para la realización de diversos tipos de tamizaje para un centro de salud. Este sistema se encuentra actualmente en producción, brindando un soporte vital en el proceso de tamizaje.",
+        "imagen": "/proyectos/aderly.png",
+        "lenguajes": [
+            "Laravel",
+            "MySQL",
+            "Javascript",
+            "Tailwind CSS",
+            "Git"
+        ],
+        "links": [
             {
-            "nombre": "Github",
-            "url" : "https://github.com/brad-tyler/SisConSur"
+                "nombre": "Github",
+                "url": "https://github.com/brad-tyler/SisConSur"
             },
             {
-            "nombre": "Trello",
-            "url" : "https://trello.com/b/fIpYCnhP/sisconosur"
+                "nombre": "Trello",
+                "url": "https://trello.com/b/fIpYCnhP/sisconosur"
             }
         ]
     },
     {
-        "titulo" : "Venta de Terrenos",
-        "descripcion" : "Desarrollé un sistema web para mejorar la separación de terrenos en una empresa inmobiliaria, este sistema web ayudó a los clientes a poder ver en que estado se encuentra un terreno (vendido, separado o libre). Si el terreno se encuentra libre el cliente podrá separar el suyo desde la comodidad de su hogar.",
-        "imagen" : "/proyectos/monaco.png",
-        "lenguajes" : ["Django", "Tailwind CSS", "Javascript", "Git", "SQL"],
-        "links" : [
+        "titulo": "Venta de Terrenos",
+        "descripcion": "Desarrollé un sistema web para mejorar la separación de terrenos en una empresa inmobiliaria, este sistema web ayudó a los clientes a poder ver en que estado se encuentra un terreno (vendido, separado o libre). Si el terreno se encuentra libre el cliente podrá separar el suyo desde la comodidad de su hogar.",
+        "imagen": "/proyectos/monaco.png",
+        "lenguajes": [
+            "Django",
+            "Tailwind CSS",
+            "Javascript",
+            "Git",
+            "SQL"
+        ],
+        "links": [
             {
-            "nombre": "Github",
-            "url" : "https://github.com/AdderlyMendoza/Venta-de-Terrenos-Monaco"
+                "nombre": "Github",
+                "url": "https://github.com/AdderlyMendoza/Venta-de-Terrenos-Monaco"
             }
         ]
     },
     {
-        "titulo" : "Reconocimiento Facial",
-        "descripcion" : "Diseñé un sistema informático para el reconocimiento facial en el examen de admisión EXTRAORDINARIO 2024 de la prestigiosa Universidad Nacional del Altiplano Puno. Esta innovadora solución permite identificar de manera precisa a los postulantes y prevenir suplantaciones en el proceso de admisión.",
-        "imagen" : "/proyectos/recFacial.png",
-        "lenguajes" : ["Python", "Tkinter"],
-        "links" : [
+        "titulo": "Reconocimiento Facial",
+        "descripcion": "Diseñé un sistema informático para el reconocimiento facial en el examen de admisión EXTRAORDINARIO 2024 de la prestigiosa Universidad Nacional del Altiplano Puno. Esta innovadora solución permite identificar de manera precisa a los postulantes y prevenir suplantaciones en el proceso de admisión.",
+        "imagen": "/proyectos/recFacial.png",
+        "lenguajes": [
+            "Python",
+            "Tkinter"
+        ],
+        "links": [
             {
-            "nombre": "Publicación",
-            "url" : "https://repositorio.unap.edu.pe/handle/20.500.14082/23352"
+                "nombre": "Publicación",
+                "url": "https://repositorio.unap.edu.pe/handle/20.500.14082/23352"
             }
         ]
     },
     {
         "titulo": "Procesamiento de Imágenes",
         "descripcion": "Desarrollé un sistema de escritorio altamente versátil para la edición, mejora y cambio de tonalidad de imágenes. Esta solución ofrece una amplia gama de herramientas y funcionalidades para manipular imágenes de manera eficiente y creativa.",
-        "imagen" : "/proyectos/aderly.png",
-        "lenguajes" : ["Python","Tkinter"],
-        "links" : [
-        ]
-    },
-    {
-        "titulo": "Palabras Clave",
-        "descripcion": "Creé un sistema de escritorio para la visualización y análisis de las palabras clave más utilizadas en los trabajos de investigación de los estudiantes universitarios. Esta solución, provee una valiosa ayuda para identificar tendencias y patrones en los trabajos académicos.",
-        "imagen" : "/proyectos/palabrasClave.png",
-        "lenguajes" : ["Python","Tkinter"],
-        "links" : [
-            {
-            "nombre": "Publicación",
-            "url":"https://easychair.org/publications/preprint/P2tQ"
-            }
-        ]
+        "imagen": "/proyectos/aderly.png",
+        "lenguajes": [
+            "Python",
+            "Tkinter"
+        ],
+        "links": []
     }
 ]
